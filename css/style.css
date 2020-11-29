@@ -1,0 +1,104 @@
+body{
+    background-color:#6f7680;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#mainDiv{
+    background-color: thistle;
+    margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#toTheImgBottom{
+    display: inline-block;
+    vertical-align : top;
+    margin-left: 3%;
+    margin-top: 2px;
+    width: 74%;
+}
+
+#textNph{
+    float: left;
+    width: 21%;
+}
+
+img{
+    width: 100%;
+    margin-top: 3px;
+    border: solid 4px;
+    border-radius: 5px;
+    border-color: rgba(49, 49, 151, 0.507);
+}
+
+h1{
+    margin-top: 2px;
+    background-color: tomato;
+    padding: 1%;
+    border-radius: 3px;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    color: rgb(4, 4, 61);
+}
+
+h4{
+    color: rgb(4, 4, 61);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.bio{
+	column-count: 2;
+	column-rule: 2px rgba(4, 4, 61, 0.733);
+    column-rule-style: solid;
+    color: rgb(12, 3, 5);
+}
+
+.unim{
+    color: rgb(0, 85, 0);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+hr{
+    color: rgba(4, 4, 61, 0.726);
+    border: solid;
+    height: 1px;
+}
+
+.underIm{
+    font-size: small;
+    background-color: rgb(31, 31, 12);
+    color: rgba(255, 255, 0, 0.815)
+}
+
+a:hover {
+    color: green;
+}
+
+.mainLs {
+    color: black;
+}
+
+a.mainLs:visited {
+    color: black;
+}
+
+a.mainLs:hover {
+    color: green;
+}
+
+
+dt{
+    font-size: large;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: rgb(23, 23, 77);
+}
+
+dd{
+    font-style: italic;
+    color: rgb(12, 3, 5);
+}
+
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="shortcut icon" href="favicon.ico">
+<title>
+10 Забележителности в България
+</title>
+</head>
+<body>
+	<img src = "ic.jpg" width="0" height="0">
+<div id="mainDiv">
+<h1> 10 Забележителности в България </h1>
+</div>
+<div style="text-align:center;">
+<button id="ButtonDiv" type="submit" name = "button" class="box" >
+Натисни ме, за да те заведа някъде. 
+</button>
+<h2>
+	<ul style="list-style-type:none;">
+		<li>-7те Риски азера-</li>
+		<li>-Крушунските водопади-</li>
+		<li>-Чудните мостове-</li>
+		<li>-Залив Болата-</li>
+		<li>-Река Камчия-</li>
+		<li>-Белоградчишките скали-</li>
+		<li>-Златните мостове-</li>
+		<li>-Деветашка пещера-</li>
+		<li>-Плаж Липите-</li>
+		</ul>
+</h2>
+</div>
+<script>
+		var list = ["zab1.html", "zab2.html", "zab3.html", "zab4.html", "zab5.html", "zab6.html", "zab7.html", "zab8.html", "zab9.html", "zab10.html" ];
+document.getElementById("ButtonDiv").addEventListener("click", function(){
+       var randomItem = list[Math.floor(Math.random()*list.length)];      
+	  var res = window.open(randomItem);
+	  return res;
+    });			  
+</script>
+
+</body>
+</html>
